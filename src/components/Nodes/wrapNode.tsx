@@ -217,6 +217,7 @@ export default (NodeComponent: ComponentType<NodeComponentProps>) => {
           <Provider value={id}>
             <NodeComponent
               id={id}
+              key={id}
               data={data}
               type={type}
               xPos={xPos}
